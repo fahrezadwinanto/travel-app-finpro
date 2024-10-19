@@ -1,13 +1,11 @@
 "use client";
 
 import Banner from "@/components/banner";
-// import Image from "next/image";
-
+import Image from "next/image"; // Menggunakan Image dari next/image
 import Link from "next/link";
 
 export default function WelcomePage() {
   return (
-    // Ini akan menjadi welcome page
     <div className="grid bg-gradient-to-b from-white to-blue-300/90">
       <div className="flex items-center justify-between min-w-screen lg:px-12 xl:px-32">
         <div className="absolute px-5 lg:relative md:pl-10">
@@ -25,7 +23,7 @@ export default function WelcomePage() {
             Explore now!
           </Link>
         </div>
-        <img
+        <Image
           src="/assets/pngegg.png"
           width={600}
           height={600}
