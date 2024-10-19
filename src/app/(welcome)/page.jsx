@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import Banner from "@/components/banner";
 import Image from "next/image";
