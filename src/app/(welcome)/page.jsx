@@ -1,7 +1,8 @@
-// "use client";
+"use client";
 
 import Banner from "@/components/banner";
-import Image from "next/image";
+// import Image from "next/image";
+
 import Link from "next/link";
 
 export default function WelcomePage() {
@@ -24,7 +25,7 @@ export default function WelcomePage() {
             Explore now!
           </Link>
         </div>
-        <Image
+        <img
           src="/assets/pngegg.png"
           width={600}
           height={600}
