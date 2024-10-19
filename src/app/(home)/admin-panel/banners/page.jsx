@@ -105,7 +105,7 @@ const BannerPageList = () => {
         <div className="flex flex-col">
           {onEdit === banner.id ? (
             <div className="flex flex-col gap-2">
-              <label className="text-sm">Change "{banner.name}"</label>
+              <label className="text-sm">Change {banner.name}</label>
               <Input
                 className="w-48 mb-3"
                 value={bannerName}

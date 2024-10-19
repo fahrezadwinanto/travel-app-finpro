@@ -109,7 +109,7 @@ const CategoryPage = () => {
             <div className="flex flex-col">
               {onEdit === category.id ? (
                 <div className="flex flex-col gap-2">
-                  <label className="text-sm">Change "{category.name}"</label>
+                  <label className="text-sm">Change {category.name}</label>
                   <Input
                     className="w-48 mb-3"
                     value={categoryName}
