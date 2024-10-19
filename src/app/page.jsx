@@ -1,7 +1,7 @@
 "use client";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import WelcomePage from "./(welcome)/page";
+import WelcomePage from "../components/welcome-page";
 
 export default function Home() {
   return (
