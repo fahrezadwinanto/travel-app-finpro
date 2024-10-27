@@ -17,9 +17,14 @@ export const trimUsername = (username, strLength) => {
 
 export const formatDate = (dateStr) => {
   const date = new Date(dateStr);
+  if (isNaN(date.getTime())) {
+    return "Invalid date"; // atau pesan lain yang sesuai
+  }
+
   const formatter = new Intl.DateTimeFormat("id-ID", {
     dateStyle: "medium",
     timeStyle: "short",
   });
   return formatter.format(date);
 };
+
